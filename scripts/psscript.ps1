@@ -39,8 +39,8 @@ Install-PackageProvider NuGet -Force
 Set-PSRepository PSGallery -InstallationPolicy Trusted
 Install-Module Az -Repository PSGallery -Force -AllowClobber
 
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/srushti-714/AIAD/master/aiadmodule.psm1" -OutFile "C:\aiadmodule.psm1"
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/srushti-714/AIAD/master/AIADVALIDATION.ps1" -OutFile "C:\AIADVALIDATION.ps1"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/srushti-71/AIAD/master/aiadmodule.psm1" -OutFile "C:\aiadmodule.psm1"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/srushti-71/AIAD/master/AIADVALIDATION.ps1" -OutFile "C:\AIADVALIDATION.ps1"
 
 
  $WebClient = New-Object System.Net.WebClient
