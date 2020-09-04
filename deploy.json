@@ -148,7 +148,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-           "https://raw.githubusercontent.com/srushti-714/AIAD/master/scripts/psscript.ps1"
+           "https://raw.githubusercontent.com/srushti-71/AIAD/master/scripts/psscript.ps1"
             
           ]
         },
